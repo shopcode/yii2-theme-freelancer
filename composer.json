@@ -1,0 +1,42 @@
+{
+    "name": "eakkabin/yii2-theme-freelancer",
+    "version": "0.0.1",
+    "type": "project",
+    "description": "Theme Feelancer (Bootstrap) | Yii 2 Advanced Project Template",
+    "keywords": ["templates", "freelancer", "drivesoftcenter.net", "yii2", "framework", "advanced"],
+    "homepage": "http://drivesoftcenter.net",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "eakakbin jaikeawma",
+            "email": "eakkabin_it@hotmail.com",
+            "homepage": "http://drivesoftcenter.net",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/eakkabin/yii2-theme-freelancer"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "2.0.6",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*"
+    },
+     "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
